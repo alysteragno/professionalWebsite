@@ -1,3 +1,4 @@
+import logoLinkedin from '.assets/icons8-linkedin (1).svg'
 function PrimaryCTA() {
 
     return(
@@ -12,7 +13,7 @@ function PrimaryCTA() {
                     <a href ="https://www.linkedin.com/in/alyster-marasigan-9314692ba/" target="blank">
                         <img  
                             className="w-[1.1em] mt-0.5 ml-2"
-                            src="src\assets\icons8-linkedin (1).svg"
+                            src={logoLinkedin}
                             alt="linked logo"
                         >
                         </img>

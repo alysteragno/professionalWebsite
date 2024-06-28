@@ -1,3 +1,10 @@
+import  reactLogo from './assets/REACT_LOGO.svg'
+import  tailwindLogo from './assets/Tailwind CSS.svg'
+import  viteLogo from './assets/vite-svgrepo-com.svg'
+import  htmlLogo from './assets/html-1.svg'
+import  cssLogo from './assets/css-3.svg'
+import  javasciptLogo from './assets/logo-javascript.svg'
+import  sassLogo from './assets/pngegg.png'
 function Skills() {
 
     return(
@@ -8,13 +15,13 @@ function Skills() {
             
             <div className="flex gap-4 justify-center ">
             <div>
-                    <img src="src\assets\react.svg" className="w-7 m-2.5"></img>
-                    <img src="src\assets\Tailwind CSS.svg" className="w-7 m-5 mr-0 ml-2.5 mb-6"></img>
-                    <img src="src\assets\vite-svgrepo-com.svg" className="w-7 m-4 ml-2.5"></img>
-                    <img src="src\assets\html-1.svg" className="w-6 mb-4 mr-0 ml-3 pb-"></img>
-                    <img src="src\assets\css-3.svg" className="w-6  ml-3"></img>
-                    <img src="src\assets\logo-javascript.svg" className="w-[22px] mt-5 ml-[13.5px]"></img>
-                    <img src="src\assets\pngegg.png" className="w-[40px] mt-4 ml-[8px]"></img>
+                    <img src={reactLogo} className="w-7 m-2.5"></img>
+                    <img src={tailwindLogo} className="w-7 m-5 mr-0 ml-2.5 mb-6"></img>
+                    <img src={viteLogo} className="w-7 m-4 ml-2.5"></img>
+                    <img src={htmlLogo} className="w-6 mb-4 mr-0 ml-3 pb-"></img>
+                    <img src={cssLogo} className="w-6  ml-3"></img>
+                    <img src={javasciptLogo} className="w-[22px] mt-5 ml-[13.5px]"></img>
+                    <img src={sassLogo} className="w-[40px] mt-4 ml-[8px]"></img>
                 </div>
                 <div>
                     <h3 className="skills hover:text-[#61DBFB] hover:bg-[rgb(27,45,71)] cursor-pointer rounded-lg">React</h3> 

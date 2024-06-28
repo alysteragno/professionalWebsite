@@ -1,4 +1,5 @@
 import emailIcon from './assets/emailIcon.png'
+import profilePicture from './assets/picture.jpg'
 function Body() {
 
     return(
@@ -14,7 +15,7 @@ function Body() {
                         <img
                             className="rounded-full opacity-70 w-[200px] flex
                                        lg:flex justify-end"
-                            src="src\assets\picture.jpg"
+                            src={profilePicture}
                             alt="picture"
                         >
                         </img>
