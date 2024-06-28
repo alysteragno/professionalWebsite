@@ -29,7 +29,6 @@ function Body() {
                             <h3 className="text-fontColor text-sm mb-4
                                  lg:"
                                  >alysteragno@gmail.com
-
                             </h3>
                         </div>
                     </a>

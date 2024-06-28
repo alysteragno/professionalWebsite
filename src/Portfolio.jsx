@@ -1,4 +1,3 @@
-import React from 'react';
 import mcdoClone from './assets/mcdonaldsWebclone.png'
 import projCatFood from './assets/catFood.png';
 import container from './assets/emptyContainer.png'
