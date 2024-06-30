@@ -8,7 +8,7 @@ function Section() {
                 <h1 className="content"> About me </h1>
                 <h2 className="md:w-[100%] max-w-[800px]    ">
                     As of 2024, I am currently working on completing my 
-                    Bachelor's degree. I'm passionate about web development, 
+                    Bachelor's degree. I'm currently focusing on Web Development and Web Design with Figma, 
                     utilizing frameworks like <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" target="blank" className="text-green-200 font-bold">React</a> and <a href="https://en.wikipedia.org/wiki/Tailwind_CSS" target="blank" className="text-purple-300 font-bold">Tailwind CSS</a>. 
                     I stay updated on the latest trends in front-end development, 
                     consistently exploring new frameworks, refining responsive 

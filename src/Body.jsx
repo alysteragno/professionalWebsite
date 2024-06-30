@@ -47,14 +47,13 @@ function Body() {
                                 className="text-purple-400 hover:text-purple-300">
                                 Alyster</a>,
                          </h1> 
-                        <div className='md:px-[80px] padding-x
+                        <div className='md:px-[80px] 
                                         lg:text-start '>
-                            a Front-end <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" target="blank" className="text-green-200 font-bold hover:text-green-100">React</a> Developer 
+                            a Front-end <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" target="blank" className="text-green-200 font-bold hover:text-green-100">React</a> Developer and a Figma Web Designer
                             from the city of Manila, Philippines. 
-                            I specialize in developing captivating, responsive, and intuitive web and 
+                            I currently specialize in developing captivating, responsive, and intuitive web and 
                             mobile applications that not only look great but also 
-                            offer seamless user experiences. I started my tech 
-                            journey at
+                            offer seamless user experiences. I am also a skilled <a href='https://help.figma.com/hc/en-us/articles/14563969806359-What-is-Figma#:~:text=Figma%20Design%20is%20for%20people,and%20make%20better%20decisions%2C%20faster.' target='blank' className='font-bold'>Figma</a> Web Designer, designing web applications before developing them. For University, I attended
                         <span 
                             className="text-green-200
                                         font-bold text-[1.49rem] hover:text-green-100"> <a href="https://www.feutech.edu.ph/">Far Eastern University - Institute of Technology,  
