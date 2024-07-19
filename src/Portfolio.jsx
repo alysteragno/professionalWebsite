@@ -8,6 +8,7 @@ import jsIcon from './assets/logo-javascript.svg';
 import reactIcon from './assets/react.svg';
 import tailwindCssIcon from './assets/Tailwind CSS.svg';
 import viteIcon  from './assets/vite-svgrepo-com.svg';
+import burnelleStudio from './assets/burnelleStudio.png'
 
 function Portfolio(props) {
     const cardContainer = [
@@ -49,11 +50,17 @@ function Portfolio(props) {
             button: 'View',
         },
         {
-            image: container,
-            projectName: 'Project 4',
+            image: burnelleStudio,
+            projectName: 'Burnelle Studio',
             technologyUsed: 'Technology used:',
-            tech: 'React, Tailwind CSS Vite',
-            button: 'View',
+            techIcons: [
+                { icon: htmlIcon, text: 'HTML' },
+                { icon: cssIcon, text: 'CSS' },
+                { icon: jsIcon, text: 'JavaScript' }
+            ],
+            tech: 'HTML, CSS, Javascipt',
+            link: 'https://burnellestudio.netlify.app', 
+            button: 'View' ,
         },
         {
             image: container,
@@ -70,6 +77,10 @@ function Portfolio(props) {
             button: 'View',
         },
     ];
+
+    const handleViewButtonClick = (link) => {
+        window.open(link, '_blank'); // Open link in a new tab/window
+    };
 
     return (
         <div className="section">
@@ -112,8 +123,10 @@ function Portfolio(props) {
                             ))}
                            
                         </div>
-                        <button className="flex text-green-100 p-1 font-logoFont text-lg hover:bg-[rgb(41,69,108)] rounded-lg border-[1px] w-[80px] m-3 justify-center">
-                            {card.button}
+                        
+                        <button className="flex text-green-100 p-1 font-logoFont text-lg hover:bg-[rgb(41,69,108)] rounded-lg border-[1px] w-[80px] m-3 justify-center" onClick={() => handleViewButtonClick(card.link)}>
+                        
+                            {card.button} 
                         </button>
                     </div>
                 ))}
